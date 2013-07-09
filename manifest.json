@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Red Subscribe Button Fixer",
+  "description": "The new YouTube subscribe button is bright flaming red. How annoying, right? This extension fixes that.",
+  "version": "1.1",
+ 
+  "permissions": [
+    "https://www.youtube.com/",
+    "http://www.youtube.com/"
+  ],
+  
+  "content_scripts": [{
+  "matches": ["https://www.youtube.com/*", "http://www.youtube.com/*"], 
+  "css": ["noredbutton.css"]}
+  ]
+  
+}
