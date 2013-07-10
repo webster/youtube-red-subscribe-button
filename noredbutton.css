@@ -1,2 +1,14 @@
-button.yt-uix-subscription-button { background: #aaa !important; }
-button.yt-uix-subscription-button .yt-uix-button-icon-wrapper { display: none !important; }
+.yt-uix-subscription-button { 
+    background: #aaa !important; 
+    color: #333 !important;
+}
+
+.yt-uix-subscription-button .yt-uix-button-icon-wrapper { 
+    display: none !important; 
+}
+
+.yt-uix-subscription-button.yt-uix-button-size-default { 
+	border: 1px solid #ccc !important;
+	background-image: linear-gradient(to top,#f6f6f6 0,#fcfcfc 100%) !important;
+    color: #aaa !important;
+}
